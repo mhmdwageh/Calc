@@ -1,126 +1,123 @@
 * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    font-family: "Work Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
 }
 
 .container {
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.main{
-    background-color: rgb(225, 223, 223);
-    text-align: center;
-    align-items: center;
-    width: 60%;
-    margin: 20px auto;
-  
+.main {
+  background-color: rgb(225, 223, 223);
+  text-align: center;
+  align-items: center;
+  width: 60%;
+  margin: 20px auto;
+  padding: 20px;
 }
-#Fform{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    width: 50%;
-    justify-content: center;
-    text-align: center;
-    justify-self: center;
-    justify-items: center;
-    margin: 5% auto;
+#Fform {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  text-align: center;
+  justify-self: center;
+  justify-items: center;
+  margin: 5% auto;
 }
-#Fform .VC{
-    padding: 10px 0;
-color:rgb(1, 211, 190);
-font-weight : bold ;
-
+#Fform .VC {
+  padding: 10px 0;
+  color: rgb(1, 211, 190);
+  font-weight: bold;
 }
-#Fform #vc{
-border-radius: 10%;
-border-style:dashed;
-border: 30px rgb(20, 129, 129) dached; 
-text-align: center;
+#Fform #vc {
+  border-radius: 6px;
+  border-style: dashed;
+  border: 30px rgb(20, 129, 129) 1px dashed;
+  text-align: center;
 }
-.xn{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+.xn {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  justify-content: space-between;
+  gap: 5px;
 }
-.inputs{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    flex-basis: 15%;
-    flex-wrap: wrap;
-    justify-content: space-between;
-
+.xn div {
+  width: 100%;
+  padding: 4px 0;
 }
+.inputs {
+  display: flex;
+  flex-direction: row;
 
-
-
-
-
-
-
-
-
-
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.inputs .input {
+  width: calc(100% / 5);
+}
 
 /* Contact */
 .contact {
-    background-color: var(--section-background);
-    padding-top: var(--section-padding);
-    padding-bottom: calc(var(--section-padding) + 60px);
+  background-color: var(--section-background);
+  padding-top: var(--section-padding);
+  padding-bottom: calc(var(--section-padding) + 60px);
 }
-.contact .info{
-    text-align: center;
-padding: 30px;
+.contact .info {
+  text-align: center;
+  padding: 30px;
 }
-.contact .info p , .contact .info a{
-font-weight: 800;
-font-size: 25px;
+.contact .info p,
+.contact .info a {
+  font-weight: 800;
+  font-size: 25px;
 }
-.contact .info p{
-    color: var(--secondary-color);
+.contact .info p {
+  color: var(--secondary-color);
 }
-.contact .info a{
-    color: var(--main-color);
+.contact .info a {
+  color: var(--main-color);
 }
-.contact .info .social{
-    padding-top:30px ;
+.contact .info .social {
+  padding-top: 30px;
 }
-.contact .info .social .links{
-    padding-top:20px ;
+.contact .info .social .links {
+  padding-top: 20px;
 }
-.contact .info .social a:nth-child(1){
-color: red;
+.contact .info .social a:nth-child(1) {
+  color: red;
 }
-.contact .info .social a:nth-child(2){
-color: blue;
+.contact .info .social a:nth-child(2) {
+  color: blue;
 }
 
-.contact .info .social a:nth-child(4){
-color: green;
+.contact .info .social a:nth-child(4) {
+  color: green;
 }
 
 /* Footer */
-.footer{
-    background-color: var(--secondary-color);
-    padding: 20px;
-    color:white ;
-    font-size: 20px;
-    text-align: center;
+.footer {
+  background-color: var(--secondary-color);
+  padding: 20px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
 }
-.footer span{
-    color: var(--main-color);
+.footer span {
+  color: var(--main-color);
 }
