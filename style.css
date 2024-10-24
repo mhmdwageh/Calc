@@ -69,7 +69,7 @@ body {
   margin-bottom: 20px;
 }
 .inputs .input {
-  width: calc(100% / 5);
+  /* width: ; */
 }
 
 /* Contact */
