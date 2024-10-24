@@ -1,0 +1,126 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.main{
+    background-color: rgb(225, 223, 223);
+    text-align: center;
+    align-items: center;
+    width: 60%;
+    margin: 20px auto;
+  
+}
+#Fform{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    justify-self: center;
+    justify-items: center;
+    margin: 5% auto;
+}
+#Fform .VC{
+    padding: 10px 0;
+color:rgb(1, 211, 190);
+font-weight : bold ;
+
+}
+#Fform #vc{
+border-radius: 10%;
+border-style:dashed;
+border: 30px rgb(20, 129, 129) dached; 
+text-align: center;
+}
+.xn{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.inputs{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-basis: 15%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Contact */
+.contact {
+    background-color: var(--section-background);
+    padding-top: var(--section-padding);
+    padding-bottom: calc(var(--section-padding) + 60px);
+}
+.contact .info{
+    text-align: center;
+padding: 30px;
+}
+.contact .info p , .contact .info a{
+font-weight: 800;
+font-size: 25px;
+}
+.contact .info p{
+    color: var(--secondary-color);
+}
+.contact .info a{
+    color: var(--main-color);
+}
+.contact .info .social{
+    padding-top:30px ;
+}
+.contact .info .social .links{
+    padding-top:20px ;
+}
+.contact .info .social a:nth-child(1){
+color: red;
+}
+.contact .info .social a:nth-child(2){
+color: blue;
+}
+
+.contact .info .social a:nth-child(4){
+color: green;
+}
+
+/* Footer */
+.footer{
+    background-color: var(--secondary-color);
+    padding: 20px;
+    color:white ;
+    font-size: 20px;
+    text-align: center;
+}
+.footer span{
+    color: var(--main-color);
+}
