@@ -53,6 +53,7 @@ form.addEventListener("submit", function (event) {
         Xn.append(div);
       } else {
         const inp = document.createElement(`input`);
+        inp.setAttribute("type", "number");
         inp.style.width = `calc(100% / ${+Vc + 1})`;
         inp.id = `inp-${row - 1}  ${colmn}`;
         rows = [...rows, inp.id];
