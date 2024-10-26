@@ -98,7 +98,8 @@ function solve(arr) {
       }
     }
     if (arr[i][i] == 0) {
-      console.log("Infinty Solution");
+      let result = ["Infinty solution"];
+      return result;
       break;
     } else {
       arr[i] = arrMulNum(arr[i], 1 / arr[i][i]);
