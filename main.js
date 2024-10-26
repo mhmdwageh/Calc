@@ -91,7 +91,7 @@ function solve(arr) {
   for (let i = 0; i < arr.length; i++) {
     if (i != arr.length - 1) {
       let newI = i + 1;
-      while (arr[i][i] === 0) {
+      while (arr[i][i] == 0) {
         SwapArr(arr[i], arr[newI]);
         newI++;
         if (newI == arr.length) break;
